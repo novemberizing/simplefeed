@@ -1,11 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_drawer"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
 
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello world" />
+        android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/main_activity_host_fragment"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:defaultNavHost="true"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/main_activity_bottom_navigation_view"
+            app:navGraph="@navigation/main_navigation" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/main_activity_bottom_navigation_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:backgroundTint="?attr/colorOnBackground"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/main_activity_menu"
+                    style="?attr/materialIconButtonStyle"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/baseline_menu_24" />
+
+                <Button
+                    android:id="@+id/main_activity_feedlist_btn"
+                    style="?attr/materialIconButtonStyle"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/baseline_rss_feed_24"
+                    app:iconPadding="4dp"
+                    app:iconSize="16dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="0dp"
+                    android:text="피드" />
+
+                <Button
+                    android:id="@+id/main_activity_feedview_btn"
+                    style="?attr/materialIconButtonStyle"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/baseline_rss_feed_24"
+                    app:iconPadding="4dp"
+                    app:iconSize="16dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="0dp"
+                    android:text="기사" />
+
+                <Button
+                    android:id="@+id/main_activity_register_btn"
+                    style="?attr/materialIconButtonStyle"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/baseline_add_24"
+                    app:iconPadding="4dp"
+                    app:iconSize="16dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="0dp"
+                    android:text="등록" />
+
+            </LinearLayout>
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/main_activity_navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        android:background="?attr/colorOnBackground"
+        app:drawerLayoutCornerSize="0dp">
+
+        <Button
+            android:id="@+id/main_activity_registered_site_btn"
+            style="?attr/materialIconButtonStyle"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/baseline_rss_feed_24"
+            app:iconPadding="4dp"
+            app:iconSize="16dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:text="등록된 사이트 보기" />
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

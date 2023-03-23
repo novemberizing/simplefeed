@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        style="?attr/textInputFilledStyle"
+        android:id="@+id/register_fragment_webpage_add_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:hint="피드주소"
+        app:helperText="웹 사이트 URL 을 입력하십시오.">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/register_fragment_webpage_add_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/register_fragment_webpage_add_layout"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.google.android.material.card.MaterialCardView
+            app:layout_constraintTop_toBottomOf="@id/register_fragment_webpage_add_layout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/register_fragment_webpage_card_view"
+            android:visibility="invisible"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:checkable="true">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:visibility="visible"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Media -->
+                    <ImageView
+                        android:id="@+id/register_fragment_webpage_preview_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="194dp"
+                        app:srcCompat="@drawable/no_image"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="설명"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <!-- Title, secondary and supporting text -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:id="@+id/register_fragment_webpage_preview_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="8dp"
+                                android:text="타이틀"
+                                android:textAppearance="?attr/textAppearanceTitleMedium"
+                                />
+
+                            <ImageView
+                                android:layout_width="16dp"
+                                android:layout_height="16dp"
+                                android:layout_gravity="center_vertical"
+                                app:srcCompat="@drawable/baseline_article_24"
+                                />
+
+                            <ImageView
+                                android:layout_width="16dp"
+                                android:layout_height="16dp"
+                                android:layout_gravity="center_vertical"
+                                app:srcCompat="@drawable/baseline_rss_feed_24"
+                                />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/register_fragment_webpage_preview_url"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="세컨드 타이틀"
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textAppearance="?attr/textAppearanceBodyMedium"
+                            android:textColor="?android:attr/textColorSecondary"
+                            />
+                        <TextView
+                            android:id="@+id/register_fragment_webpage_preview_description"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:text="모름"
+                            android:textAppearance="?attr/textAppearanceBodyMedium"
+                            android:textColor="?android:attr/textColorSecondary"
+                            />
+
+                    </LinearLayout>
+
+                    <!-- Buttons -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="horizontal">
+                        <com.google.android.material.button.MaterialButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="8dp"
+                            android:text="버튼"
+                            style="?attr/borderlessButtonStyle"
+                            />
+                        <com.google.android.material.button.MaterialButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="버튼"
+                            style="?attr/borderlessButtonStyle"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/register_fragment_webpage_preview_invalid_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@color/foreground_transparent">
+
+                    <TextView
+                        android:id="@+id/register_fragment_webpage_preview_invalid_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="@color/white"
+                        android:text="유용한 주소가 아닙니다.">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <ProgressBar
+                    android:layout_weight="1"
+                    android:id="@+id/register_fragment_webpage_preview_progress_bar"
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="64dp"
+                    android:indeterminateTint="@color/white"
+                    android:minHeight="40dp"
+                    android:minWidth="40dp" />
+
+            </FrameLayout>
+
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/navigation_register">
+
+    <fragment
+        android:id="@+id/navigation_register"
+        android:name="net.novemberizing.simplefeed.ui.RegisterFragment"
+        android:label="등록"
+        tools:layout="@layout/register_fragment_layout" />
+
+    <fragment
+        android:id="@+id/navigation_feed_list"
+        android:name="net.novemberizing.simplefeed.ui.FeedListFragment"
+        android:label="피드리스트"
+        tools:layout="@layout/feed_list_fragment_layout" />
+
+    <fragment
+        android:id="@+id/navigation_feed_view"
+        android:name="net.novemberizing.simplefeed.ui.FeedViewFragment"
+        android:label="피드뷰"
+        tools:layout="@layout/feed_view_fragment_layout" />
+
+    <fragment
+        android:id="@+id/navigation_registered_site_view"
+        android:name="net.novemberizing.simplefeed.ui.RegisteredSiteFragment"
+        android:label="등록된 사이트"
+        tools:layout="@layout/registered_site_fragment_layout" />
+
+</navigation>
