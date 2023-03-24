@@ -18,6 +18,7 @@ public class SimplefeedSiteRepository {
         SimplefeedApplicationDB.execute(() -> {
             try {
                 simplefeedSiteDao.insert(site);
+                callback.on(site, null);
             } catch(Throwable e) {
                 callback.on(site, e);
             }

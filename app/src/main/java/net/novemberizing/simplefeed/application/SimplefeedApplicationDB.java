@@ -25,18 +25,9 @@ public abstract class SimplefeedApplicationDB extends RoomDatabase {
     public static void gen(Context context) {
         synchronized (SimplefeedApplicationDB.class) {
             context.deleteDatabase(NAME);   // TODO: REMOVE THIS
-
             if(instance == null) {
                 instance = Room.databaseBuilder(context.getApplicationContext(), SimplefeedApplicationDB.class, NAME)
                         .build();
-
-                SimplefeedSiteRepository repository = new SimplefeedSiteRepository();
-                LiveData<List<SimplefeedSite>> data = repository.all();
-                // Application application;
-
-                // application.getLi
-                // context.get
-                // data.observe(this.getLif, );
             }
         }
     }

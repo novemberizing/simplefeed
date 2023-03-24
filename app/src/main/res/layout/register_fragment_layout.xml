@@ -79,28 +79,36 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/register_fragment_webpage_preview_favicon"
+                                android:layout_width="16dp"
+                                android:layout_height="16dp"
+                                android:layout_marginTop="4dp"
+                                android:layout_marginEnd="8dp"
+                                app:srcCompat="@drawable/baseline_article_24" />
+
                             <TextView
                                 android:id="@+id/register_fragment_webpage_preview_title"
-                                android:layout_width="wrap_content"
+                                android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_weight="1"
                                 android:layout_marginEnd="8dp"
                                 android:text="타이틀"
-                                android:textAppearance="?attr/textAppearanceTitleMedium"
-                                />
+                                android:textAppearance="?attr/textAppearanceTitleMedium" />
 
                             <ImageView
+                                android:id="@+id/register_fragment_webpage_preview_title_icon_type"
                                 android:layout_width="16dp"
                                 android:layout_height="16dp"
-                                android:layout_gravity="center_vertical"
-                                app:srcCompat="@drawable/baseline_article_24"
-                                />
+                                app:srcCompat="@drawable/baseline_article_24" />
 
                             <ImageView
+                                android:id="@+id/register_fragment_webpage_preview_title_icon_feed"
                                 android:layout_width="16dp"
                                 android:layout_height="16dp"
-                                android:layout_gravity="center_vertical"
-                                app:srcCompat="@drawable/baseline_rss_feed_24"
-                                />
+                                app:srcCompat="@drawable/baseline_rss_feed_24" />
+
                         </LinearLayout>
 
                         <TextView
@@ -136,13 +144,13 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="8dp"
-                            android:text="버튼"
+                            android:text="취소"
                             style="?attr/borderlessButtonStyle"
                             />
                         <com.google.android.material.button.MaterialButton
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="버튼"
+                            android:text="추가"
                             style="?attr/borderlessButtonStyle"
                             />
                     </LinearLayout>

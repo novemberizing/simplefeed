@@ -1,9 +1,5 @@
 package net.novemberizing.simplefeed.application;
 
-import android.text.Html;
-import android.text.TextUtils;
-import android.util.Log;
-
 import net.novemberizing.core.ListUtil;
 
 import org.apache.commons.text.StringEscapeUtils;
@@ -15,6 +11,41 @@ import java.util.List;
 
 public class SimplefeedApplicationJsoup {
     private static final String Tag = "SimplefeedApplicationJsoup";
+
+    public static String is(Document document) {
+        Document.OutputSettings settings = document.outputSettings();
+        Document.OutputSettings.Syntax syntax = settings.syntax();
+
+        return syntax.name();
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public static String htmlUrl(Document document, String key) {
         Element element = document.selectFirst("link[rel=alternate][type=text/html]");
 

@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Feed {
+
     public static class Entry {
         public static Entry gen(Element element) {
             Entry o = new Entry();
@@ -46,6 +47,27 @@ public class Feed {
     }
     public static final String ATOM = "atom";
     public static final String RSS = "rss";
+
+    // gen(o.url, o.title, o.type, o.description);
+    public static Feed gen(String url) {
+        Feed o = new Feed();
+
+        o.url = url;
+
+        return o;
+    }
+    public static Feed gen(String url, String title, String type, String description) {
+        Feed o = new Feed();
+
+        o.url = url;
+        o.title = title;
+        o.type = type;
+        o.description = description;
+
+        return o;
+    }
+
+
     public static String type(Document document) {
         Element element = document.selectFirst("feed");
         if(element != null) {
@@ -67,7 +89,6 @@ public class Feed {
 
     public String url;
     public String title;
-    public String image;
     public String type;
     public String description;
     public ArrayList<Entry> entries;

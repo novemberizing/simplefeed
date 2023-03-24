@@ -14,6 +14,11 @@ import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.DocumentType;
+import org.jsoup.parser.Parser;
+
 import java.io.UnsupportedEncodingException;
 
 public class SimplefeedApplicationVolley {
@@ -26,6 +31,25 @@ public class SimplefeedApplicationVolley {
                 instance = new SimplefeedApplicationVolley(context);
             }
         }
+    }
+    public static Request<Document> jsoup(String url, Response.Listener<Document> success, Response.ErrorListener fail) {
+        return instance.queue.add(new Request<>(Request.Method.GET, url, fail) {
+            @Override
+            protected Response<Document> parseNetworkResponse(NetworkResponse response) {
+                try {
+                    String html = new String(response.data, HttpHeaderParser.parseCharset(response.headers, "utf-8"));
+                    Document document = html.startsWith("<?xml") ? Jsoup.parse(html, Parser.xmlParser()) : Jsoup.parse(html);
+                    return Response.success(document, HttpHeaderParser.parseCacheHeaders(response));
+                } catch (Exception e) {
+                    return Response.error(new ParseError(e));
+                }
+            }
+
+            @Override
+            protected void deliverResponse(Document response) {
+                success.onResponse(response);
+            }
+        });
     }
 
     public static Request<String> str(String url, Response.Listener<String> success, Response.ErrorListener fail) {

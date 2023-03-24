@@ -23,10 +23,18 @@ import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.textfield.TextInputEditText;
 
 import net.novemberizing.simplefeed.R;
+import net.novemberizing.simplefeed.SimplefeedApplication;
 import net.novemberizing.simplefeed.application.SimplefeedApplicationDialog;
 import net.novemberizing.simplefeed.application.SimplefeedApplicationGson;
+import net.novemberizing.simplefeed.application.SimplefeedApplicationJsoup;
 import net.novemberizing.simplefeed.data.Webpage;
+import net.novemberizing.simplefeed.db.site.SimplefeedSiteRepository;
 import net.novemberizing.simplefeed.objects.SimplefeedTextWatcher;
+
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.nodes.FormElement;
+import org.jsoup.select.Elements;
 
 import java.util.regex.Matcher;
 
@@ -34,6 +42,7 @@ public class RegisterFragment extends Fragment {
     private static final String Tag = "RegisterFragment";
     private TextInputEditText webpageAddEdit;
     private MaterialCardView webpageCardView;
+    private ImageView webpagePreviewFavicon;
     private ImageView webpagePreviewImage;
     private TextView webpagePreviewTitle;
     private TextView webpagePreviewUrl;
@@ -41,12 +50,16 @@ public class RegisterFragment extends Fragment {
     private ProgressBar webpagePreviewProgressBar;
     private LinearLayout webpagePreviewInvalidLayout;
     private TextView webpagePreviewInvalidText;
+    private ImageView webpagePreviewIconType;
+    private ImageView webpagePreviewIconFeed;
     // private RequestFuture<OpenGraph> fetch;
-    private Request<String> fetch;
+    private Request<Document> fetch;
     private String url;
 
     private Snackbar snackbar;
     private Webpage webpage;
+
+    private SimplefeedSiteRepository simplefeedSiteRep;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle bundle) {
@@ -56,6 +69,7 @@ public class RegisterFragment extends Fragment {
 
         webpageAddEdit = view.findViewById(R.id.register_fragment_webpage_add_edit);
         webpageCardView = view.findViewById(R.id.register_fragment_webpage_card_view);
+        webpagePreviewFavicon = view.findViewById(R.id.register_fragment_webpage_preview_favicon);
         webpagePreviewImage = view.findViewById(R.id.register_fragment_webpage_preview_image);
         webpagePreviewTitle = view.findViewById(R.id.register_fragment_webpage_preview_title);
         webpagePreviewUrl = view.findViewById(R.id.register_fragment_webpage_preview_url);
@@ -63,8 +77,11 @@ public class RegisterFragment extends Fragment {
         webpagePreviewProgressBar = view.findViewById(R.id.register_fragment_webpage_preview_progress_bar);
         webpagePreviewInvalidLayout = view.findViewById(R.id.register_fragment_webpage_preview_invalid_layout);
         webpagePreviewInvalidText = view.findViewById(R.id.register_fragment_webpage_preview_invalid_text);
-        // snackbar =
-        // register_fragment_webpage_preview_invalid_text
+        webpagePreviewIconType = view.findViewById(R.id.register_fragment_webpage_preview_title_icon_type);
+        webpagePreviewIconFeed = view.findViewById(R.id.register_fragment_webpage_preview_title_icon_feed);
+
+        simplefeedSiteRep = new SimplefeedSiteRepository();
+
 
         webpageCardView.setOnClickListener(v -> {
             if(snackbar != null) {
@@ -113,9 +130,16 @@ public class RegisterFragment extends Fragment {
                         if(o != null) {
                             webpage = o;
                             webpageCardView.setVisibility(View.VISIBLE);
+                            Log.e(Tag, o.favicon());
+                            Glide.with(RegisterFragment.this)
+                                    .load(o.favicon())
+                                            .into(webpagePreviewFavicon);
+                            // webpagePreviewFavicon.set
                             webpagePreviewTitle.setText(o.title());
                             webpagePreviewUrl.setText(o.url());
                             webpagePreviewDescription.setText(o.description());
+                            webpagePreviewIconType.setVisibility(webpage.site != null ? View.VISIBLE : View.GONE);
+                            webpagePreviewIconFeed.setVisibility(webpage.feed != null ? View.VISIBLE : View.GONE);
                             Glide.with(RegisterFragment.this)
                                     .load(o.image())
                                     .into(webpagePreviewImage);
@@ -144,18 +168,23 @@ public class RegisterFragment extends Fragment {
 
     private void registerWebpage() {
         if(webpage != null) {
-            // TODO: SAVE MAIN FEED
-            webpageCardView.setVisibility(View.INVISIBLE);
-            webpageAddEdit.setText("");
-            if(snackbar != null) {
-                snackbar.dismiss();
-            }
-            if(getView() != null) {
-                snackbar = Snackbar.make(getView(), "새로운 주소가 등록 되었습니다.", Snackbar.LENGTH_SHORT);
-                snackbar.show();
-            } else {
-                Log.e(Tag, "getView() is null");
-            }
+            Log.e(Tag, "register webpage");
+            simplefeedSiteRep.insert(webpage.genSimplefeedSite(), (site, exception) -> {
+                if(exception == null) {
+                    Log.e(Tag, "register webpage");
+                    SimplefeedApplication.ui(getActivity(), () -> {
+                        Log.e(Tag, "register webpage");
+                        webpageCardView.setVisibility(View.INVISIBLE);
+                        webpageAddEdit.setText("");
+
+                        snackbar = SimplefeedApplication.snackbar(snackbar, getView(), "새로운 주소가 등록이 되었습니다.");
+                    });
+                } else {
+                    exception.printStackTrace();
+                    Log.e(Tag, exception.toString());
+                    snackbar = SimplefeedApplication.snackbar(snackbar, getView(), "새로운 주소를 등록할 수 없습니다.");
+                }
+            });
         } else {
             Log.w(Tag, "webpage is null");
         }
