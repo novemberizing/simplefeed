@@ -1,0 +1,1667 @@
+[
+  {
+    "title": "tech",
+    "feed": [
+      {
+        "url": "https://techneedle.com/feed",
+        "title": "techNeedle 테크니들 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://poem23.tistory.com/rss",
+        "title": "학주니닷컴",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://sungmooncho.com/feed/",
+        "title": "조성문의 블로그 » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://chitsol.com/feed/",
+        "title": "칫솔_초이의 IT 휴게실 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://www.earlyadopter.co.kr/feed",
+        "title": "얼리어답터 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://ppss.kr/feed",
+        "title": "ㅍㅍㅅㅅ » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://korea.googleblog.com/feeds/posts/default",
+        "title": "Google 한국 블로그 - Atom",
+        "type": "application/atom+xml"
+      },
+      {
+        "url": "https://www.techholic.co.kr/rss/allArticle.xml",
+        "title": "테크홀릭",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://liverex.tistory.com/rss",
+        "title": "LiveREX의 컴부수기",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://www.venturesquare.net/feed",
+        "title": "벤처스퀘어 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://catchrod.tistory.com/rss",
+        "title": "공상제작소",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://bruce.tistory.com/rss",
+        "title": "bruce, 와이프 몰래 오븐을 지르다",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://jwmx.tistory.com/rss",
+        "title": "바다야크",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://tech.kakao.com/feed/",
+        "title": "tech.kakao.com",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://bcho.tistory.com/rss",
+        "title": "조대협의 블로그",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://feeds2.feedburner.com/rss_outsider_dev",
+        "title": "Outsider's Dev Story",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://verticalplatform.kr/feed",
+        "title": "Vertical Platform » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://rss.etnews.com/",
+        "title": "etnews.com [RSS]",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://platum.kr/feed",
+        "title": "스타트업 스토리 플랫폼 '플래텀(Platum)' » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://underkg.co.kr:44391/rss",
+        "title": "Site RSS",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://feeds.feedburner.com/slownews",
+        "title": "슬로우뉴스 RSS Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://jhrogue.blogspot.com/feeds/posts/default",
+        "title": "컴퓨터 vs 책 - Atom",
+        "type": "application/atom+xml"
+      },
+      {
+        "url": "https://ryueyes11.tistory.com/rss",
+        "title": "TB의 SNS 이야기",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://techg.kr/feed/",
+        "title": "techG » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://developers-kr.googleblog.com/feeds/posts/default",
+        "title": "Google Developers Korea Blog - Atom",
+        "type": "application/atom+xml"
+      },
+      {
+        "url": "https://chunchu.tistory.com/rss",
+        "title": "천추의  IT 이야기",
+        "type": "application/rss+xml"
+      }
+    ]
+  },
+  {
+    "title": "design",
+    "feed": [
+      {
+        "url": "https://designlog.tistory.com/rss",
+        "title": "디자인로그(DESIGN LOG)",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://pxdstory.tistory.com/rss",
+        "title": "pxd Story",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://design-enter.com/tt/rss",
+        "title": "디자인 엔터",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://blog.rightbrain.co.kr/?feed=rss2",
+        "title": "RightBrain lab » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://icunow.co.kr/feed/",
+        "title": "지금 써보러 갑니다 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://designcompass.org/feed/",
+        "title": "디자인 나침반 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://slowalk.co.kr/feed",
+        "title": "슬로워크 — 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://kr.designmarketinglab.com/feed",
+        "title": "디자인 마케팅 랩 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://servicedesign.tistory.com/rss",
+        "title": "SERVICE DESIGN www.usable.co.kr",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://modangs.tistory.com/rss",
+        "title": "웹통의 웹으로 통하는 세상",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://www.theartist.co.kr/rss/allArticle.xml",
+        "title": "디아티스트",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://www.homify.co.kr/magazine.rss",
+        "title": "homify 매거진",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://its.tistory.com/rss",
+        "title": "NEOEARLY* by 라디오키즈",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://designflux.co.kr/feed/",
+        "title": "Designflux 2.0 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://bosim.tistory.com/rss",
+        "title": "독서와 디자인 기행",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://metabrain.com/feed/",
+        "title": "메타브레인 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://ditoday.com/feed/",
+        "title": "DIGITAL iNSIGHT 디지털 인사이트 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://blog.kr.rhino3d.com/feeds/posts/default",
+        "title": "Rhino 새소식, etc. - Atom",
+        "type": "application/atom+xml"
+      },
+      {
+        "url": "https://v-vdesign.com/feed/",
+        "title": "Vice Versa design studio's portfolio » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://yozm.wishket.com/magazine/feed/",
+        "title": "요즘IT » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://ksodesign.com:43545/rss",
+        "title": "Site RSS",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://jfactory.tistory.com/rss",
+        "title": "JFactory",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://hyeonseok.com/rss/",
+        "title": "RSS",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://www.gqkorea.co.kr/feed/",
+        "title": "지큐 코리아 (GQ Korea) » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://jinzaspace.com/feed",
+        "title": "진짜공간 » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://film-art.tistory.com/rss",
+        "title": "김홍기의 패션의 제국",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://www.visualdive.com/feed/",
+        "title": "지적 존재들의 B컷 - 비주얼다이브 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://cahierdeseoul.com/feed/",
+        "title": "Cahier de Seoul » Flux",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://designpool.kr/feed/",
+        "title": "DesignPool » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://fashionseoul.com/feed",
+        "title": "패션서울 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://visla.kr/feed/",
+        "title": "VISLA Magazine » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://koko8829.tistory.com/rss",
+        "title": "열이아빠의 어쨌거나 저쨌거나",
+        "type": "application/rss+xml"
+      }
+    ]
+  },
+  {
+    "title": "marketing",
+    "feed": [
+      {
+        "url": "https://www.thedigitalmkt.com/feed/",
+        "title": "Digital Marketing Curation » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://magazine.contenta.co/feed/",
+        "title": "Contenta M RSS Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://ppss.kr/feed",
+        "title": "ㅍㅍㅅㅅ » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://zrock.tistory.com/rss",
+        "title": "블로거팁닷컴",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://happist.com/feed",
+        "title": "꿈꾸는섬 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://junycap.com/rss",
+        "title": "Interactive Dialogue &amp; PR 2.0",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://seosem.kr/feed/",
+        "title": "검색엔진 최적화 마케팅 가이드 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://organicmedialab.com/feed/",
+        "title": "Organic Media Lab » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://www.dailytrend.co.kr/feed/",
+        "title": "데일리트렌드 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://blog.bizspring.co.kr/feed/",
+        "title": "BizSpring BLOG » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://analyticsmarketing.co.kr/feed/",
+        "title": "분석마케팅 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://media.fastcampus.co.kr/feed/",
+        "title": "패스트캠퍼스 미디어 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://www.artistsong.net/blog/?feed=rss2",
+        "title": "Insight Marketing Communications » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://infutureconsulting.tistory.com/rss",
+        "title": "인퓨처컨설팅 &amp; 유정식",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://platum.kr/feed",
+        "title": "스타트업 스토리 플랫폼 '플래텀(Platum)' » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://www.visualdive.com/feed/",
+        "title": "지적 존재들의 B컷 - 비주얼다이브 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://moneyman.kr/feed",
+        "title": "머니맨 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://icunow.co.kr/feed/",
+        "title": "지금 써보러 갑니다 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://www.mobiinside.co.kr/wp-content/plugins/kboard/rss.php",
+        "title": "모비인사이드 MOBIINSIDE » KBoard 통합 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://verticalplatform.kr/feed",
+        "title": "Vertical Platform » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://ditoday.com/feed/",
+        "title": "DIGITAL iNSIGHT 디지털 인사이트 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://kkd4139.tistory.com/rss",
+        "title": "소셜스토리",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://kr.designmarketinglab.com/feed",
+        "title": "디자인 마케팅 랩 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://www.changeon.org/feed/",
+        "title": "체인지온 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://ysddong.tistory.com/rss",
+        "title": "마케터 염소똥",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://blog.rocketpunch.com/feed/",
+        "title": "로켓펀치 공식 블로그 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://blog.opensurvey.co.kr/feed/",
+        "title": "오픈서베이 블로그 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://minieetea.com/feed",
+        "title": "by minieetea » 피드",
+        "type": "application/rss+xml"
+      }
+    ]
+  },
+  {
+    "title": "business",
+    "feed": [
+      {
+        "url": "https://www.venturesquare.net/feed",
+        "title": "벤처스퀘어 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://platum.kr/feed",
+        "title": "스타트업 스토리 플랫폼 '플래텀(Platum)' » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://www.thestartupbible.com/feed",
+        "title": "THE STARTUP BIBLE » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://byline.network/feed/",
+        "title": "Byline Network » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://sungmooncho.com/feed/",
+        "title": "조성문의 블로그 » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://verticalplatform.kr/feed",
+        "title": "Vertical Platform » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://infutureconsulting.tistory.com/rss",
+        "title": "인퓨처컨설팅 &amp; 유정식",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://ppss.kr/feed",
+        "title": "ㅍㅍㅅㅅ » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://techneedle.com/feed",
+        "title": "techNeedle 테크니들 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://charlespyo.com/feed/",
+        "title": "Charles Pyo » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://vcnc.tistory.com/rss",
+        "title": "Jake Park",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://thehfk.org/feed",
+        "title": "HFK » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://blog.rocketpunch.com/feed/",
+        "title": "로켓펀치 공식 블로그 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://www.mobiinside.co.kr/wp-content/plugins/kboard/rss.php",
+        "title": "모비인사이드 MOBIINSIDE » KBoard 통합 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://wowtale.net/feed/",
+        "title": "와우테일(WOWTALE) » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://ingray.net/feed/",
+        "title": "Minhee Cho » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://tkim.co/feed/",
+        "title": "10x Lessons » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://ebadak.news/feed/",
+        "title": "이바닥늬우스 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://sanbaek.com/feed/",
+        "title": "San's diary » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://media.fastcampus.co.kr/feed/",
+        "title": "패스트캠퍼스 미디어 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://www.pitchone.co.kr/feed/",
+        "title": "피치원미디어 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://startuprecipe.co.kr/feed",
+        "title": "뉴스레터로 만나는 스타트업 투자 리포트 ‘스타트업레시피’ » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://k-startup.biz/feed/",
+        "title": "Startup LIbrary » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://inuit.tistory.com/rss",
+        "title": "Inuit Blogged",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://www.dailytrend.co.kr/feed/",
+        "title": "데일리트렌드 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://feeds.feedburner.com/slownews",
+        "title": "슬로우뉴스 RSS Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://blog.opensurvey.co.kr/feed/",
+        "title": "오픈서베이 블로그 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://magazine.contenta.co/feed/",
+        "title": "Contenta M RSS Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://organicmedialab.com/feed/",
+        "title": "Organic Media Lab » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://minieetea.com/feed",
+        "title": "by minieetea » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://hur.substack.com/feed",
+        "title": "Two Cents",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://economicview.net/feed/",
+        "title": "economic view » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://icunow.co.kr/feed/",
+        "title": "지금 써보러 갑니다 » 피드",
+        "type": "application/rss+xml"
+      }
+    ]
+  },
+  {
+    "title": "science",
+    "feed": [
+      {
+        "url": "https://madscientist.wordpress.com/feed/",
+        "title": "Secret Lab of a Mad Scientist » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://horizon.kias.re.kr/feed/",
+        "title": "과학의 지평 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://sciencebooks.tistory.com/rss",
+        "title": "ScienceBooks",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://biotechnology.tistory.com/rss",
+        "title": "All about Biotechnology, 바이오텍의 모든 것",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://gooking.tistory.com/rss",
+        "title": "과학과 철학/ GK 비판적 사고",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://pomp.tistory.com/rss",
+        "title": "Pomp On Math &amp; Puzzle",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://scimonitors.com/feed/",
+        "title": "사이언스모니터 | The Science Monitor » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://jjy0501.blogspot.com/feeds/posts/default",
+        "title": "고든의 블로그 구글 분점 - Atom",
+        "type": "application/atom+xml"
+      },
+      {
+        "url": "https://scilavinka.tistory.com/rss",
+        "title": "Scilavinka",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://newspeppermint.com/feed/",
+        "title": "NewsPeppermint » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://ghebook.blogspot.com/feeds/posts/default",
+        "title": "조금은 느리게 살자 - Atom",
+        "type": "application/atom+xml"
+      },
+      {
+        "url": "https://www.technologyreview.kr/feed/",
+        "title": "MIT Technology Review » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://mdphd.tistory.com/rss",
+        "title": "MD &amp; PhD",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://rss.etnews.com/",
+        "title": "etnews.com [RSS]",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://sbmoon.tistory.com/rss",
+        "title": "Sue Moon's Blog",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://geowiki.tistory.com/rss",
+        "title": "다른나라 지리 자료들 Geowiki",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://www.yoonsupchoi.com/feed/",
+        "title": "최윤섭의 디지털 헬스케어 » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://starlakim.wordpress.com/feed/",
+        "title": "starla's trash can » Feed",
+        "type": "application/rss+xml"
+      }
+    ]
+  },
+  {
+    "title": "politics",
+    "feed": [
+      {
+        "url": "https://news.sbs.co.kr/news/sitemapRSS.do",
+        "title": "SBS NEWS [RSS]",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://www.peoplepower21.org/feed",
+        "title": "참여연대 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://www.realmeter.net/feed/",
+        "title": "리얼미터 - Realmeter » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://retired.tistory.com/rss",
+        "title": "우석훈 임시연습장",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://hagi87.blogspot.com/feeds/posts/default",
+        "title": "Bret Gay - Atom",
+        "type": "application/atom+xml"
+      },
+      {
+        "url": "https://www.factoll.com/feed/",
+        "title": "FACTOLL » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://basil83.blogspot.com/feeds/posts/default",
+        "title": "노정태의 블로그 - Atom",
+        "type": "application/atom+xml"
+      },
+      {
+        "url": "https://poisontongue.tistory.com/rss",
+        "title": "여행감독 고재열의 길 위의 살롱",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://www.soyoyoo.com/feed",
+        "title": "soyoyoo.com » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://begray.tistory.com/rss",
+        "title": "BeGray: Historical,  Critical, and Practical",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://xsfm.co.kr/wp/?feed=rss2",
+        "title": "8(XSFM » 피드",
+        "type": "application/rss+xml"
+      }
+    ]
+  },
+  {
+    "title": "security",
+    "feed": [
+      {
+        "url": "https://alyacofficialblog.tistory.com/rss",
+        "title": "이스트시큐리티 알약 블로그",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://xcoolcat7.tistory.com/rss",
+        "title": "쿨캣의 블로그 놀이",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://rss.etnews.com/",
+        "title": "etnews.com [RSS]",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://asec.ahnlab.com/ko/feed/",
+        "title": "ASEC BLOG » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://www.hahwul.com/feed.xml",
+        "title": "HAHWUL",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://erteam.tistory.com/rss",
+        "title": "잉카인터넷 시큐리티대응센터 블로그",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://speedr00t.tistory.com/rss",
+        "title": "장경칩연구소",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://hook.tistory.com/rss",
+        "title": "훅크선장의 전함",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://cybercafe.tistory.com/rss",
+        "title": "taeho's life logger",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://apollo89.com/wordpress/?feed=rss2",
+        "title": "Apollo89.com » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://coinz.tistory.com/rss",
+        "title": "CoInzBlog",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://netxhack.com/feed/",
+        "title": "Net x Hack » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://teus.tistory.com/rss",
+        "title": "TEUS.me",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://misfits.kr/feed",
+        "title": "Misfits » Feed",
+        "type": "application/rss+xml"
+      }
+    ]
+  },
+  {
+    "title": "webtoon",
+    "feed": [
+      {
+        "url": "http://rss.egloos.com/blog/francomics",
+        "title": "세계의 만화",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://pyedog.tistory.com/rss",
+        "title": "들개이빨",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://manggazip.tistory.com/rss",
+        "title": "매국노 탄핵 フトスト",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://joone.net/feed/",
+        "title": "만화로 나누는 자유/오픈소스 소프트웨어 이야기 » Feed",
+        "type": "application/rss+xml"
+      }
+    ]
+  },
+  {
+    "title": "economic",
+    "feed": [
+      {
+        "url": "http://economicview.net/feed/",
+        "title": "economic view » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://investor-js.blogspot.com/feeds/posts/default",
+        "title": "송종식의 IT와 가치투자 이야기 - Atom",
+        "type": "application/atom+xml"
+      },
+      {
+        "url": "https://www.economyinsight.co.kr/rss/allArticle.xml",
+        "title": "Economy Insight",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://runmoneyrun.blogspot.com/feeds/posts/default",
+        "title": "Run Money Run - Atom",
+        "type": "application/atom+xml"
+      },
+      {
+        "url": "https://now.rememberapp.co.kr/feed/",
+        "title": "Remember Now » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://smallake.kr/?feed=rss2",
+        "title": "그대안의 작은 호수 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://bluevillage.tistory.com/rss",
+        "title": "Blue Village",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://hugin00munin.blogspot.com/feeds/posts/default",
+        "title": "Miscellaneous ideas for my own - Atom",
+        "type": "application/atom+xml"
+      }
+    ]
+  },
+  {
+    "title": "movie",
+    "feed": [
+      {
+        "url": "http://djuna.kr/xe/rss",
+        "title": "Site RSS",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://three-m.kr/feed/",
+        "title": "User's blog » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://wolfpack.tistory.com/rss",
+        "title": "달콤한 인생 - 최연진기자의 영화, 음악, 여행이야기 -",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://extmovie.com/rss",
+        "title": "Site RSS",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://rayspace.tistory.com/rss",
+        "title": "유창의 시네마앤",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://zazak.tistory.com/rss",
+        "title": "세상 모든 것의 리뷰",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://gamja-blog.tistory.com/rss",
+        "title": "감자의 3류 비평",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://topsy.tistory.com/rss",
+        "title": "dlskldpw",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://neoimages.tistory.com/rss",
+        "title": "카타르 월드컵 중계방송",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://annual-parallax.blogspot.com/feeds/posts/default",
+        "title": "ANNUAL PARALLAX - Atom",
+        "type": "application/atom+xml"
+      },
+      {
+        "url": "https://sosmikuru.tistory.com/rss",
+        "title": "노지의 소박한 이야기",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://beijingslowwalk.tistory.com/rss",
+        "title": "효준의 시선",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://indienbob.tistory.com/rss",
+        "title": "독립예술웹진 인디언밥",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://moviestory.net/feed/",
+        "title": "Movie Story » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://visla.kr/feed/",
+        "title": "VISLA Magazine » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://photohistory.tistory.com/rss",
+        "title": "사진은 권력이다",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://ryudonghyup.com/feed/",
+        "title": "이야기 구경꾼 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://film-art.tistory.com/rss",
+        "title": "김홍기의 패션의 제국",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://subtitler.net/feed/",
+        "title": "Subtitler » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://ppss.kr/feed",
+        "title": "ㅍㅍㅅㅅ » 피드",
+        "type": "application/rss+xml"
+      }
+    ]
+  },
+  {
+    "title": "develop",
+    "feed": [
+      {
+        "url": "http://feeds2.feedburner.com/rss_outsider_dev",
+        "title": "Outsider's Dev Story",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://tech.kakao.com/feed/",
+        "title": "tech.kakao.com » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://bocho.tistory.com/rss",
+        "title": "개발 블로그",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://blog.gaerae.com/feeds/posts/default",
+        "title": "개발자스럽다 Â» Atom",
+        "type": "application/atom+xml"
+      },
+      {
+        "url": "https://developers-kr.googleblog.com/feeds/posts/default",
+        "title": "Google Developers Korea Blog - Atom",
+        "type": "application/atom+xml"
+      },
+      {
+        "url": "http://thefarmersfront.github.io/feed.xml",
+        "title": "컬리 기술 블로그",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://jhrogue.blogspot.com/feeds/posts/default",
+        "title": "컴퓨터 vs 책 - Atom",
+        "type": "application/atom+xml"
+      },
+      {
+        "url": "https://taegon.kim/feed",
+        "title": "코드쓰는사람 » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://spoqa.github.io/atom.xml",
+        "title": "Spoqa 기술 블로그",
+        "type": "application/atom+xml"
+      },
+      {
+        "url": "https://charsyam.wordpress.com/feed/",
+        "title": "Charsyam's Blog » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://techblog.woowahan.com/feed/",
+        "title": "우아한형제들 기술블로그 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://hyperconnect.github.io/feed.xml",
+        "title": "Hyperconnect Tech Blog",
+        "type": "application/atom+xml"
+      },
+      {
+        "url": "https://zuminternet.github.io/feed.xml",
+        "title": "ZUM 기술 블로그",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://toss.tech/rss.xml",
+        "title": "토스 기술 블로그, 토스테크 글 목록",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://techblog.yogiyo.co.kr/feed",
+        "title": "RSS",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://blog.dramancompany.com/feed/",
+        "title": "DRAMA&amp;COMPANY » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://johngrib.github.io/feed.xml",
+        "title": "기계인간 John Grib",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://tech.socarcorp.kr/feed.xml",
+        "title": "SOCAR Tech Blog",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://huns.me/feed.xml",
+        "title": "Huns.me",
+        "type": "application/atom+xml"
+      },
+      {
+        "url": "https://jeho.page/feed.xml",
+        "title": "K리그 프로그래머",
+        "type": "application/atom+xml"
+      },
+      {
+        "url": "https://okjsp.tistory.com/rss",
+        "title": "OK 괜찮아, 동네 개발자형",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://podcast.44bits.io/feed",
+        "title": "44BITS 팟캐스트 - 클라우드, 개발, 가젯",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://subokim.wordpress.com/feed/",
+        "title": "IT의 중심에서 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://jacking75.github.io/feed.xml",
+        "title": "jacking75 - online game server programmer",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://feeds.feedburner.com/occamsrazr/blog",
+        "title": "류광의 번역 이야기 블로그",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://news.hada.io/rss/news",
+        "title": "GeekNews Feed",
+        "type": "application/atom+xml"
+      },
+      {
+        "url": "https://edykim.com/ko/feed.xml",
+        "title": "edykim.com 블로그 RSS 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://hyeonseok.com/rss/",
+        "title": "RSS",
+        "type": "application/rss+xml"
+      }
+    ]
+  },
+  {
+    "title": "car",
+    "feed": [
+      {
+        "url": "https://motorblog.kr/feed/",
+        "title": "모터의 블로그 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://motorgraph.com/rss/allArticle.xml",
+        "title": "모터그래프",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://redzone.tistory.com/rss",
+        "title": "Carn Redzone",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://cartip.kr/feed/",
+        "title": "자동차 정보 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://autocstory.tistory.com/rss",
+        "title": "7분전",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://carholic.net/feed",
+        "title": "CARHOLIC » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://www.motorian.kr/?feed=rss2",
+        "title": "[모터리언] Motorian » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://www.sunnycero.com/wp/?feed=rss2",
+        "title": "SUNNYCERO.com » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://carimage.tistory.com/rss",
+        "title": "카이미지넷",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://motor-review.tistory.com/rss",
+        "title": "Lionrock",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://bullsone-blog.tistory.com/rss",
+        "title": "불스원 블로그",
+        "type": "application/rss+xml"
+      }
+    ]
+  },
+  {
+    "title": "travel",
+    "feed": [
+      {
+        "url": "https://kimchi39.tistory.com/rss",
+        "title": "김치군의 내 여행은 여전히 ~ing",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://skynautes.tistory.com/rss",
+        "title": "하쿠나마타타",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://yun-blog.tistory.com/rss",
+        "title": "부부가 함께하는 맛있는 여행",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://nitenday.tistory.com/rss",
+        "title": "배낭여행의 모든 것 nitenday STYLE",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://shipbest.tistory.com/rss",
+        "title": "발길이 이끄는 곳으로의 사진여행",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://www.universewithme.com/feed/",
+        "title": "Cycling Around The World » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://bezzera.tistory.com/rss",
+        "title": "언젠간 날고 말거야",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://latinamericastory.com/feed/",
+        "title": "Latin America Story » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://potato52.tistory.com/rss",
+        "title": "토종감자 수입오이의 여행노트",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://www.milemoa.com/feed/",
+        "title": "MileMoa.com » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://diner.tistory.com/rss",
+        "title": "TOMMY'S DINER",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://phototour.tistory.com/rss",
+        "title": "우리인생레시피(with 지구별1박2일)",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://chakeun.tistory.com/rss",
+        "title": "위기주부의 미국 여행과 생활 V2",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://jejunim1.tistory.com/rss",
+        "title": "제주촌놈닷컴",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://tourcodi.tistory.com/rss",
+        "title": "강경원의 여행만들기",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://view42.tistory.com/rss",
+        "title": "Viewport 작은 창 밖 세상",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://hellobeautifuldays.com/feed/",
+        "title": "Hello Beautiful Days » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://ggholic.tistory.com/rss",
+        "title": "경기홀릭",
+        "type": "application/rss+xml"
+      }
+    ]
+  },
+  {
+    "title": "game",
+    "feed": [
+      {
+        "url": "https://kr.ign.com/feed.xml",
+        "title": "IGN Korea Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://ritgun.tistory.com/rss",
+        "title": "펼치다",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://gamefocus.co.kr/happynews_rss.php",
+        "title": "해피뉴스 RSS 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://nemo838.tistory.com/rss",
+        "title": "두기의 고전게임 시즌 2",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://zuntata.tistory.com/rss",
+        "title": "게임뉴스 블로그 오버플로우",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://smileru.tistory.com/rss",
+        "title": "스마일로그",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://kurenai9.tistory.com/rss",
+        "title": "겜生겜思",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://camlostblog.wordpress.com/feed/",
+        "title": "Minuial » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://mtg-kr.tistory.com/rss",
+        "title": "2022 카타르 월드컵 경기 중계 방송",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://jinfeng55.tistory.com/rss",
+        "title": "Bravo~! My Life~",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://angel927.tistory.com/rss",
+        "title": "The life is REAL",
+        "type": "application/rss+xml"
+      }
+    ]
+  },
+  {
+    "title": "photography",
+    "feed": [
+      {
+        "url": "https://photohistory.tistory.com/rss",
+        "title": "사진은 권력이다",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://eastrain.tistory.com/rss",
+        "title": "EastRain's gallery",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://rara1733.tistory.com/rss",
+        "title": "종이우산의 앙냥냥 월드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://coinlover.tistory.com/rss",
+        "title": "코인러버의 다락방",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://cultpd.tistory.com/rss",
+        "title": "사진학개론 CULTPD.COM",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://netaquinas.tistory.com/rss",
+        "title": "소소한 즐거움",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://manualfocus.tistory.com/rss",
+        "title": "Raycat : Photo and Story",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://ryuseunghyun.tistory.com/rss",
+        "title": "시간을 사진하다",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://wing91.tistory.com/rss",
+        "title": "FotoZone",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://topsy.tistory.com/rss",
+        "title": "dlskldpw",
+        "type": "application/rss+xml"
+      }
+    ]
+  },
+  {
+    "title": "fashion",
+    "feed": [
+      {
+        "url": "https://film-art.tistory.com/rss",
+        "title": "김홍기의 패션의 제국",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://www.gqkorea.co.kr/feed/",
+        "title": "지큐 코리아 (GQ Korea) » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://saleforyou7.tistory.com/rss",
+        "title": "세일포유",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://fashionseoul.com/feed",
+        "title": "패션서울 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://366day.tistory.com/rss",
+        "title": "366일 향기나는 블로그",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://wink123.tistory.com/rss",
+        "title": "패션놀이~♬♪",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://www.wkorea.com/feed/",
+        "title": "더블유 코리아 (W Korea) » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://www.allurekorea.com/feed/",
+        "title": "얼루어 코리아 (Allure Korea) » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://blogdegalleria.tistory.com/rss",
+        "title": "갤러리아 공식블로그 'BLOG DE GALLERIA'",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://maidennoir.tistory.com/rss",
+        "title": "Maiden Noir Archive",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://visla.kr/feed/",
+        "title": "VISLA Magazine » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://betterweekend.co.kr/news/rss",
+        "title": "RSS",
+        "type": "application/rss+xml"
+      }
+    ]
+  },
+  {
+    "title": "music",
+    "feed": [
+      {
+        "url": "https://idology.kr/feed",
+        "title": "Idology » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://wagnerianwk.blogspot.com/feeds/posts/default",
+        "title": "바그네리안 김원철의 음악 이야기 - Atom",
+        "type": "application/atom+xml"
+      },
+      {
+        "url": "http://80snet.com/feed",
+        "title": "80s Net » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://mikstipe.tistory.com/rss",
+        "title": "Mikstipe's Music Tapestry",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://betherealist.tistory.com/rss",
+        "title": "WANNAPLAYDIRTY",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://trex.tistory.com/rss",
+        "title": "Rexism : 렉시즘",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://beatz4us.tistory.com/rss",
+        "title": "Musiq.",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://visla.kr/feed/",
+        "title": "VISLA Magazine » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://indienbob.tistory.com/rss",
+        "title": "독립예술웹진 인디언밥",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://anyflow.tistory.com/rss",
+        "title": "어쨌건간에 흘러가는 者",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://topsy.tistory.com/rss",
+        "title": "dlskldpw",
+        "type": "application/rss+xml"
+      }
+    ]
+  },
+  {
+    "title": "sport",
+    "feed": [
+      {
+        "url": "https://yagoo.tistory.com/rss",
+        "title": "야구",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://kini.tistory.com/rss",
+        "title": "kini's\" sportugese\"",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://gimpoman.tistory.com/rss",
+        "title": "지후니 매거진",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://birdsnest.tistory.com/rss",
+        "title": "Redbirds Nest in Korea",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://sportnest.kr/feed/",
+        "title": "Sportnest.kr » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://suxism.com/?feed=rss2",
+        "title": "Suxism.com » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://moozine.tistory.com/rss",
+        "title": "MooZine",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://b11825.tistory.com/rss",
+        "title": "하찮은 블로그",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://lystjc.tistory.com/rss",
+        "title": "변하지 않는 세상을 꿈꾸며",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://ajaxforce.tistory.com/rss",
+        "title": "ORANJE &amp; EREDIVISIE",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://www.sunnycero.com/wp/?feed=rss2",
+        "title": "SUNNYCERO.com » Feed",
+        "type": "application/rss+xml"
+      }
+    ]
+  },
+  {
+    "title": "health",
+    "feed": [
+      {
+        "url": "https://yubukangkoon.tistory.com/rss",
+        "title": "당산역 정형외과 박상준의원 티스토리",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://gnathia.tistory.com/rss",
+        "title": "Dr.류성용의 행복한 치과 이야기",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "http://blog.kimeye.co.kr/rss",
+        "title": "옆집 eye : 옆집 아이 - 건양의대 김안과병원 이야기",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://kormedi.com/feed/",
+        "title": "코메디닷컴 » 피드",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://gedoc.tistory.com/rss",
+        "title": "카타르 월드컵 중계 사이트 2022 경기 일정 순위 예선 본선 준결승 결",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://mdphd.tistory.com/rss",
+        "title": "MD &amp; PhD",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://www.yoonsupchoi.com/feed/",
+        "title": "최윤섭의 디지털 헬스케어 » Feed",
+        "type": "application/rss+xml"
+      },
+      {
+        "url": "https://sharehows.com/feed/",
+        "title": "쉐어하우스 » 피드",
+        "type": "application/rss+xml"
+      }
+    ]
+  }
+]

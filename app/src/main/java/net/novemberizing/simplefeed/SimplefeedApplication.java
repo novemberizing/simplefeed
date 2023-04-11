@@ -24,6 +24,7 @@ public class SimplefeedApplication extends Application {
         }
         return y == null;
     }
+
     public static void ui(Activity activity, Runnable runnable) {
         if(activity != null) {
             activity.runOnUiThread(runnable);
@@ -46,6 +47,14 @@ public class SimplefeedApplication extends Application {
         Uri uri = Uri.parse(url);
         Uri.Builder builder = uri.buildUpon();
         builder.path("favicon.ico");
+        uri = builder.build();
+        return uri.toString();
+    }
+
+    public static String buildHostUrl(String url) {
+        Uri uri = Uri.parse(url);
+        Uri.Builder builder = uri.buildUpon();
+        builder.path(null);
         uri = builder.build();
         return uri.toString();
     }

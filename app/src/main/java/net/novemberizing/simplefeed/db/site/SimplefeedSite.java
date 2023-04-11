@@ -9,38 +9,25 @@ import net.novemberizing.simplefeed.data.Webpage;
 
 @Entity(tableName = "site", indices = {@Index(value="url", unique = true)})
 public class SimplefeedSite {
-    public static class Type {
-        public static final String feed = "feed";
-        public static final String rss = "rss";
-        public static final String webpage = "webpage";
-
-        public static String gen(Webpage webpage) {
-            if(webpage.feed != null) {
-                return SimplefeedSite.Type.feed;
-            }
-            return SimplefeedSite.Type.webpage;
-        }
-    }
-
-
     public static SimplefeedSite from(Webpage webpage) {
         SimplefeedSite o = new SimplefeedSite();
 
-        o.site = webpage.site != null ? webpage.site.url : null;
+        o.url = webpage.url;
+        o.favicon = webpage.favicon;
+        o.title = webpage.title;
+        o.description = webpage.description;
+        o.image = webpage.image;
+        o.root = webpage.site != null ? webpage.site.url : null;
         o.feed = webpage.feed != null ? webpage.feed.url : null;
-        o.url = webpage.site != null ? webpage.site.url : webpage.url;
-        o.favicon = webpage.site != null && webpage.site.favicon != null ? webpage.site.favicon : webpage.favicon;
-        o.type = SimplefeedSite.Type.gen(webpage);
         o.datetime = System.currentTimeMillis();
+        o.last = 0L;
 
         return o;
     }
+
     @PrimaryKey(autoGenerate = true)
+    @ColumnInfo(name = "uid")
     public Integer uid;
-    @ColumnInfo(name = "site")
-    public String site;
-    @ColumnInfo(name = "feed")
-    public String feed;
 
     @ColumnInfo(name = "url")
     public String url;
@@ -48,8 +35,68 @@ public class SimplefeedSite {
     @ColumnInfo(name = "favicon")
     public String favicon;
 
-    @ColumnInfo(name = "type")
-    public String type;
+    @ColumnInfo(name = "title")
+    public String title;
+
+    @ColumnInfo(name = "description")
+    public String description;
+
+    @ColumnInfo(name = "image")
+    public String image;
+
+    @ColumnInfo(name = "feed")
+    public String feed;
+
+    @ColumnInfo(name = "root")
+    public String root;
+
     @ColumnInfo(name = "datetime")
     public Long datetime;
+
+    @ColumnInfo(name = "last")
+    public Long last;
+
+
+
+
+
+
+
+
+//
+//
+//    @PrimaryKey(autoGenerate = true)
+//    public Integer uid;
+//
+//    public String title;
+//    public String image;
+//    public String url;
+//    public String description;
+//    public String type;
+//    public String favicon;
+//    public String feed;
+//    public String site;
+//    public Long datetime;
+//
+//
+//
+//
+//
+//
+//
+//    @ColumnInfo(name = "site")
+//    public String site;
+//    @ColumnInfo(name = "feed")
+//    public String feed;
+//
+//    @ColumnInfo(name = "url")
+//    public String url;
+//
+//    @ColumnInfo(name = "favicon")
+//    public String favicon;
+//
+//    @ColumnInfo(name = "type")
+//    public String type;
+//    @ColumnInfo(name = "datetime")
+//    public Long datetime;
 }
